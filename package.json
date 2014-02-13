@@ -8,6 +8,7 @@
     "csslint": ">=0.9.10"
   },
   "scripts": {
-    "test": "./node_modules/.bin/csslint *.css"
+    "build-install": "npm install && component install --dev",
+    "build-test": "csslint test.css && component build --dev"
   }
 }
