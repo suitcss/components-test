@@ -73,20 +73,18 @@ This is an example of an idiomatic SUIT CSS test file:
 
 ## Testing
 
-Install [Node](http://nodejs.org) (comes with npm). It's recommended that you
-also globally install [Component(1)](http://component.io): `npm install -g
-component`.
+Install [Node](http://nodejs.org) (comes with npm).
 
 From the repo root, install the project's development dependencies:
 
 ```
-make
+npm run build-install
 ```
 
 To run the CSS Lint tests and build the front-end development bundle:
 
 ```
-make test
+npm run build-test
 ```
 
 Basic visual tests are in `test.html`.
