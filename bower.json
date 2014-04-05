@@ -1,14 +1,13 @@
 {
-  "name": "suit-test",
-  "description": "A SUIT component to help test the visual rendering of other components",
-  "version": "0.1.0",
+  "name": "suit-components-test",
+  "description": "CSS for presenting UI components for visual tests",
+  "version": "0.1.1",
   "main": "test.css",
   "ignore": [
     "build",
     "components",
     "test",
     ".*",
-    "Makefile",
     "CHANGELOG.md",
     "component.json",
     "package.json",
